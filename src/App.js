@@ -1,5 +1,6 @@
 import Projects from "./components/Projects";
 import { importAllImages } from "./utils/utils";
+import "./assets/styles/App.css";
 
 const importedImages = importAllImages(
   require.context("./assets/images", false, /\.(png|jpe?g|svg)$/)
@@ -19,7 +20,7 @@ export const images = [
 
 function App() {
   return (
-    <div>
+    <div style={{background: "#444"}}>
       <Projects images={images} />
     </div>
   );
