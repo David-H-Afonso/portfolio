@@ -16,6 +16,7 @@ export const images = [
   importedImages["vuedex.png"].default,
   importedImages["vuejs_ecommerce_template.png"].default,
   importedImages["batatabit.png"].default,
+  importedImages["lotr-quote.png"].default,
 ];
 
 function App() {

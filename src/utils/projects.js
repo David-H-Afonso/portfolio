@@ -66,4 +66,12 @@ export const projects = [
     github: "https://github.com/David-H-Afonso/batatabit-html-css-learning-page",
     deploy: "https://batatabit-html-css-learning-page.netlify.app/",
   },
+  {
+    id: 9,
+    title: "Lord Of The Rings Quotes",
+    description:
+      "Simple app consuming The One API showing different quotes of LOTR with the character that said it and some data about it",
+    github: "https://github.com/David-H-Afonso/lotr-quote",
+    deploy: "https://lotr-quote-david-h-afonso.netlify.app/",
+  },
 ];
