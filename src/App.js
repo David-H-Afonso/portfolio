@@ -21,8 +21,8 @@ export const images = [
 
 function App() {
   return (
-    <div style={{background: "#444"}}>
-      <Projects images={images} />
+    <div style={{ background: "#fff" }}>
+      {/* <Projects images={images} /> */}
     </div>
   );
 }
