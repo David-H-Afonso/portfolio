@@ -22,7 +22,7 @@ export const images = [
 function App() {
   return (
     <div style={{ background: "#fff" }}>
-      {/* <Projects images={images} />  */}
+      {/* <Projects images={images} /> */}
     </div>
   );
 }
