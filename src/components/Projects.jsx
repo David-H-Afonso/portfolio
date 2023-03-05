@@ -17,6 +17,26 @@ const Projects = ({ images }) => {
                 {project.id + 1} - {project.title}
               </p>
             </div>
+            <p className="ProjectDescription">{project.description}</p>
+            <div className="ProjectLinkContainer">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="ProjectLink"
+                href={project.github}
+              >
+                See Github Repository
+              </a>{" "}
+              -{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="ProjectLink"
+                href={project.deploy}
+              >
+                Check it live!
+              </a>
+            </div>
           </div>
         );
       })}
