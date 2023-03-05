@@ -1,4 +1,4 @@
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import { importAllImages } from "./utils/utils";
 import "./assets/styles/App.css";
 
